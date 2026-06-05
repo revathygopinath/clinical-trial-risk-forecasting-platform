@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Outputs
+outputs/
+logs/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+
+# Data
+data/AERO-BirdsEye-Data.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
