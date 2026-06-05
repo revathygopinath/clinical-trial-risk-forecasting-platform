@@ -3,7 +3,7 @@
 A production-grade machine learning system for clinical trial termination risk scoring
 and portfolio-level pipeline forecasting.
 
-**Live Dashboard:** [Add your Streamlit Cloud link here]
+**Live Dashboard:** [https://clinical-trial-risk-forecasting-platform-qervhsm3asa5ts4jybqkf.streamlit.app/]
 
 ---
 
