@@ -91,11 +91,11 @@ a legitimate outcome indicating initial parameters were well-suited to this data
 The 0.75 operational threshold was discovered through zone analysis — not chosen manually.
 Bucket-level precision analysis revealed a precision cliff at this point.
 
-| Threshold | Use Case | Trials Reviewed | Precision | Recall |
+| Threshold | Use Case | Trials Flagged | Precision | Recall |
 |---|---|---|---|---|
-| 0.30 | Quarterly Screening | 52% | 32% | 88% |
-| 0.75 | Weekly Operational Review | 13% | 79% | 56% |
-| 0.95 | Board Escalation | 7% | 95% | 34% |
+| 0.30 | Portfolio Surveillance | 52% | 32% | 88% |
+| 0.75 | Risk Review & Mitigation | 13% | 79% | 56% |
+| 0.95 | Executive Escalation | 7% | 95% | 34% |
 
 **Confusion matrix at 0.75 (test set):**
 
@@ -258,9 +258,6 @@ feature is less reliable for smaller or unknown sponsors.
 **Dataset snapshot:** Active trials represent a 2019 snapshot from the dataset.
 A production deployment would connect to the live ClinicalTrials.gov API.
 
-**Phase 2 temporal decline:** Historical Novartis Phase 2 completion dropped from
-88% (2005-09) to 60% (2015-19). Active trials started on average in 2016.
-Predicted completion of 37% reflects this temporal pattern — not model error.
 
 ---
 
