@@ -7,7 +7,10 @@ venv/
 .venv/
 
 # Outputs
-outputs/
+outputs/*
+!outputs/*.png
+!outputs/*.jpg
+!outputs/*.jpeg
 logs/
 
 # Streamlit cache
